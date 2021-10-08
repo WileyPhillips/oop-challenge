@@ -6,6 +6,6 @@ public class Main {
         options();
     }
     public static void options () {
-        System.out.println("1. Left Eye \r\n 2. Right Eye \r\n 3. Heart \r\n 4. Stomach \r\n 5. Skin \r\n 6. Quit");
+        System.out.println("1. Left Eye \r\n2. Right Eye\r\n3. Heart \r\n4. Stomach \r\n5. Skin \r\n6. Quit");
     }
 }
