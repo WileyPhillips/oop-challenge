@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //Patient has the attributes found in the example.
+        Patient patient = new Patient("Tom", 25, new LeftEye("Short sighted", "Blue"), new RightEye("Normal", "Blue"), new Heart("Normal", 65), new Stomach("PUD"), new Skin("Burned"));
         options();
     }
     public static void options () {

@@ -1,18 +1,38 @@
 package com.wileyphillips.oopchallenge;
 
 public class Patient {
+    private String name;
+    private int age;
     private LeftEye leftEye;
     private RightEye rightEye;
     private Heart heart;
     private Stomach stomach;
     private Skin skin;
 
-    public Patient(LeftEye leftEye, RightEye rightEye, Heart heart, Stomach stomach, Skin skin) {
+    public Patient(String name, int age, LeftEye leftEye, RightEye rightEye, Heart heart, Stomach stomach, Skin skin) {
+        this.name = name;
+        this.age = age;
         this.leftEye = leftEye;
         this.rightEye = rightEye;
         this.heart = heart;
         this.stomach = stomach;
         this.skin = skin;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public LeftEye getLeftEye() {
@@ -54,5 +74,4 @@ public class Patient {
     public void setSkin(Skin skin) {
         this.skin = skin;
     }
-
 }
