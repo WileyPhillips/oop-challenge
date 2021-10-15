@@ -15,7 +15,7 @@ public class Main {
             if (number.equals("1")){
                 System.out.println("Name: Left Eye\nMedical Condition: " + patient.getLeftEye().getMedicalCondition() + "\nColor: " + patient.getLeftEye().getColor());
             } else if (number.equals("2")) {
-                System.out.println("Name: Left Eye\nMedical Condition: " + patient.getRightEye().getMedicalCondition() + "\nColor: " + patient.getRightEye().getColor());
+                System.out.println("Name: Right Eye\nMedical Condition: " + patient.getRightEye().getMedicalCondition() + "\nColor: " + patient.getRightEye().getColor());
             }
         }
 
