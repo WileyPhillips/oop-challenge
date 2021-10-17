@@ -52,12 +52,14 @@ public class Main {
 //        System.out.println("Name: Left Eye\nMedical Condition: "+ patient.);
 //    }
     public static String options () {
+        //only valid user inputs
         String[] numOptions = {"1","2","3","4","5","6"};
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("    1. Left Eye \n    2. Right Eye\n    3. Heart \n    4. Stomach \n    5. Skin \n    6. Quit");
             String choice = scanner.next();
             for (String number: numOptions) {
+                //checks if the user put a valid input and returns it if they did.
                 if (number.equals(choice)) {
                     return number;
                 }

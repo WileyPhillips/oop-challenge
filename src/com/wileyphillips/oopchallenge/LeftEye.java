@@ -1,6 +1,7 @@
 package com.wileyphillips.oopchallenge;
 
 public class LeftEye extends Skin {
+    //Same attributes as skin minus also has one for color.
     private String color;
 
     public LeftEye(String medicalCondition, String color) {

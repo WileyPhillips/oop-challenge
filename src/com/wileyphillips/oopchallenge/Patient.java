@@ -1,6 +1,7 @@
 package com.wileyphillips.oopchallenge;
 
 public class Patient {
+    //Takes the other classes as attributes.
     private String name;
     private int age;
     private LeftEye leftEye;
